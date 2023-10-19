@@ -95,10 +95,11 @@ p{
     color:rgb(255, 183, 89);
     transition: 0.2s;
 }
+
 footer{
     color: white;
     background-color: rgb(255, 199, 125);
-    margin-top: 3.2%;
+    margin-top: 15%;
     padding: 10px;
 }
 .teste{
