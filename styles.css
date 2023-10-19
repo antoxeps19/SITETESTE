@@ -99,8 +99,8 @@ p{
 footer{
     color: white;
     background-color: rgb(255, 199, 125);
-    margin-top: 15%;
-    padding: 10px;
+    margin-top: 10.5%;
+    padding: 15px;
 }
 .teste{
     display: flex;
@@ -157,5 +157,5 @@ button[type="submit"]:hover{
 #fusionreborn{
     font-size: 5px;
     color: antiquewhite;
-    margin-bottom: 20.5%;
+    margin-bottom: 26.5%;
 }
