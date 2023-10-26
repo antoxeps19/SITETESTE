@@ -1,24 +1,24 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 221, 176);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    color: rgb(255, 199, 125);
+    color: rgb(0, 0, 0);
 }
 
 header{
-    background-color: rgb(252, 197, 125);
+    background-color: rgb(236, 200, 152);
     padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 header h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 header a{
     text-decoration: none;
@@ -34,20 +34,30 @@ nav ul{
     flex-direction: row;
     list-style-type: none;
 }
+
 nav a{
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right: 5em;
     transition: 0.2s;
 }
+
 nav a:hover{
-    color: rgb(238, 238, 238);
+    color: rgb(255, 255, 255);
     transition: 0.2s;
 }
+h3{
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
 h1{
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 50px;
 }
 p{
@@ -58,13 +68,43 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 4%;
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.categorias .card{
+    border: solid 3px rgb(224, 152, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    transition: 0.2s;
+
+}
+
+#paos{
+    background-image: url(categopão.jfif);
+}
+#bolos{
+    background-image: url(bolos.jpg);
+}
+#salg{
+    background-image: url(salgados.jpg);
+}
+
+.categorias .card:hover{
+    transform: scale(105%);
+    transition: 0.2s ;
 }
 .card{
     background-color: rgb(255, 255, 255, 0.8);
     width: 350px;
     height: 350px;
     border-radius: 20px;
-    transition: 0.2s;
 
 }
 .texto{
@@ -86,18 +126,23 @@ p{
     max-height: 150px;
     max-width: 150px;
 }
-.card:hover{
-    transform: scale(105%);
+.botao{
+    background-color: rgb(255, 183, 89);
+    padding: 10px;
+    border: 0px;
+    size: 5px;
     transition: 0.2s;
-    background-color: rgba(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 40px;
 }
-.card:hover .texto{
-    color:rgb(255, 183, 89);
+
+.botao:hover{
+    background-color: rgb(207, 148, 71);
     transition: 0.2s;
 }
 
 footer{
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(255, 199, 125);
     margin-top: 10.5%;
     padding: 15px;
@@ -148,7 +193,7 @@ button[type="submit"]{
     width: 30%;
     height:10%;
     border: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(255, 199, 125);
 }
 button[type="submit"]:hover{
@@ -156,6 +201,6 @@ button[type="submit"]:hover{
 }
 #fusionreborn{
     font-size: 5px;
-    color: antiquewhite;
+    color: rgb(255, 221, 176);
     margin-bottom: 26.5%;
 }
