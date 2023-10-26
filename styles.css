@@ -211,4 +211,10 @@ button[type="submit"]:hover{
     font-size: 5px;
     color: rgb(255, 221, 176);
     margin-bottom: 26.5%;
+    transition: 1s;
+}
+#fusionreborn:hover{
+    color: black;
+    transition: 240s;
+    font-size: 25px;
 }
